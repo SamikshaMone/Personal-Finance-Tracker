@@ -1,4 +1,4 @@
-// File: DTOs/BudgetDto.cs
+// File: Personal-Finance-Tracker/backend/DTOs/BudgetDto.cs
 
 namespace FinanceTracker.API.DTOs
 {
