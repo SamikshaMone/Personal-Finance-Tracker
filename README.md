@@ -118,8 +118,11 @@ App runs at: http://localhost:3000
 🧑‍💻 Developer Notes
 This project demonstrates clean architecture, proper SOLID design patterns, and frontend-backend separation for production-ready enterprise apps. Easily deployable to Azure or any cloud platform.
 
-- 1. Dashboard Home Page
- [Dashboard Home Page](Images/HomePage.png)
+- 1. [Dashboard Home Page](Images/HomePage.png)
+  2. [Add Transaction Page](Images/HomePage.png)
+  3. [Budget Management Page](Images/HomePage.png)
+  4. [Reports Page](Images/HomePage.png)
+  5. [Settings/Profile Page](Images/HomePage.png)
 ---
 ## 🤝 Contribution Guide
 - Fork the repo
