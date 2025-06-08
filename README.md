@@ -80,7 +80,7 @@ npm run dev
 App runs at: http://localhost:3000
 
 ---
-### 📸 Screenshots
+## 📸 Screenshots
 
 🧑‍💻 Developer Notes
 This project demonstrates clean architecture, proper SOLID design patterns, and frontend-backend separation for production-ready enterprise apps. Easily deployable to Azure or any cloud platform.
