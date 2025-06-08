@@ -3,25 +3,24 @@ using FinanceTracker.API.DTOs;
 
 namespace FinanceTracker.API.Validations
 {
-    public class RegisterDtoValidator : AbstractValidator<RegisterDto>
+    public class TransactionDtoValidator : AbstractValidator<TransactionDto>
     {
-        public RegisterDtoValidator()
+        public TransactionDtoValidator()
         {
-            RuleFor(x => x.UserName)
-                .NotEmpty().WithMessage("Username is required")
-                .MinimumLength(3).WithMessage("Username must be at least 3 characters");
+            RuleFor(x => x.Type)
+                .NotEmpty().WithMessage("Transaction type is required")
+                .Must(type => type == "Income" || type == "Expense")
+                .WithMessage("Transaction type must be either 'Income' or 'Expense'");
 
-            RuleFor(x => x.Email)
-                .NotEmpty().WithMessage("Email is required")
-                .EmailAddress().WithMessage("A valid email is required");
+            RuleFor(x => x.Category)
+                .NotEmpty().WithMessage("Category is required");
 
-            RuleFor(x => x.Password)
-                .NotEmpty().WithMessage("Password is required")
-                .MinimumLength(6).WithMessage("Password must be at least 6 characters");
+            RuleFor(x => x.Amount)
+                .GreaterThan(0).WithMessage("Amount must be greater than zero");
 
-            RuleFor(x => x.ConfirmPassword)
-                .Equal(x => x.Password).WithMessage("Passwords must match");
+            RuleFor(x => x.Date)
+                .NotEmpty().WithMessage("Date is required")
+                .LessThanOrEqualTo(DateTime.Now).WithMessage("Date cannot be in the future");
         }
     }
 }
-
