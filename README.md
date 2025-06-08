@@ -119,7 +119,7 @@ App runs at: http://localhost:3000
 This project demonstrates clean architecture, proper SOLID design patterns, and frontend-backend separation for production-ready enterprise apps. Easily deployable to Azure or any cloud platform.
 
 - 1. Dashboard Home Page
- [Dashboard Home Page](images/dashboard-screenshot.png)
+ [Dashboard Home Page](images/HomePage.png)
 ---
 ## 🤝 Contribution Guide
 - Fork the repo
