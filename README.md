@@ -53,9 +53,6 @@ The goal of this application is to help users:
 ## 📁 Project Structure
 
 
-
----
-
 ## 🧪 Local Setup
 
 ### ✅ Prerequisites
