@@ -51,4 +51,24 @@ The goal of this application is to help users:
 ---
 
 ## 📁 Project Structure
+PersonalFinanceTracker/
+├── backend/ # .NET Core API
+│ └── FinanceTracker.API/
+│ ├── Controllers/
+│ ├── Services/
+│ ├── DTOs/
+│ ├── Models/
+│ ├── Data/
+│ └── Program.cs
+├── frontend/ # React + TS App
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── redux/
+│ │ └── App.tsx
+├── .gitignore
+├── LICENSE
+└── README.md
+
+
 
