@@ -86,12 +86,12 @@ npm run dev
 App runs at: http://localhost:3000
 
 ---
-### 📸 Screenshots
+## 📸 Screenshots
 
 🧑‍💻 Developer Notes
 This project demonstrates clean architecture, proper SOLID design patterns, and frontend-backend separation for production-ready enterprise apps. Easily deployable to Azure or any cloud platform.
 
-### 🤝 Contribution Guide
+## 🤝 Contribution Guide
 Fork the repo
 
 Create a feature branch (git checkout -b feature/YourFeature)
@@ -100,10 +100,10 @@ Commit your changes
 
 Open a Pull Request
 
-### ⚖️ License
+## ⚖️ License
 This project is licensed under the MIT License.
 
-### 🙋‍♀️ Maintained By
+## 🙋‍♀️ Maintained By
 Samiksha Mone
 
 .NET Full Stack Developer (2.7+ years)
