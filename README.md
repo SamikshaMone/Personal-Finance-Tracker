@@ -52,6 +52,21 @@ The goal of this application is to help users:
 
 ## 📁 Project Structure
 
+EmployeeTaskManagement/
+├── Backend/
+│   └── TaskManagement.Api/
+│       ├── Controllers/
+│       ├── Data/
+│       ├── Hubs/
+│       └── Models/
+├── Frontend/
+│   └── task-management-app/
+│       ├── public/
+│       └── src/
+│           └── components/
+├── .gitignore
+├── LICENSE
+└── README.md
 
 ### 🧪 Local Setup
 
