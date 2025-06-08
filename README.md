@@ -51,24 +51,25 @@ The goal of this application is to help users:
 ---
 
 ## 📁 Project Structure
-PersonalFinanceTracker/
-├── backend/ # .NET Core API
-│ └── FinanceTracker.API/
-│ ├── Controllers/
-│ ├── Services/
-│ ├── DTOs/
-│ ├── Models/
-│ ├── Data/
-│ └── Program.cs
-├── frontend/ # React + TS App
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── redux/
-│ │ └── App.tsx
-├── .gitignore
-├── LICENSE
-└── README.md
+
+---
+
+## 🧪 Local Setup
+
+### ✅ Prerequisites
+- .NET 8 SDK
+- Node.js (v18+ recommended)
+- SQL Server or LocalDB
+
+---
+
+### ⚙️ Backend Setup (ASP.NET Core API)
+
+```bash
+cd backend/FinanceTracker.API
+dotnet restore
+dotnet ef database update
+dotnet run
 
 
 
