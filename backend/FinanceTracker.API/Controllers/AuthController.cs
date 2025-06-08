@@ -1,4 +1,4 @@
-// File: FinanceTracker.API/Controllers/AuthController.cs
+// File: Personal-Finance-Tracker/backend/FinanceTracker.API/Controllers/AuthController.cs
 
 using Microsoft.AspNetCore.Mvc;
 using FinanceTracker.API.Models;
