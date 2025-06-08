@@ -103,6 +103,9 @@ This project is licensed under the MIT License.
 
 ### 🙋‍♀️ Maintained By
 Samiksha Mone
+
 .NET Full Stack Developer (2.7+ years)
+
 📧 monesamiksha@gmail.com
+
 🔗 LinkedIn | Portfolio | GitHub
