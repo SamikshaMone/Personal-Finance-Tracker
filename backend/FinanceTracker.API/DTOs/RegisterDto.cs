@@ -1,4 +1,4 @@
-// File: DTOs/RegisterDto.cs
+// File: Personal-Finance-Tracker/backend/DTOs/RegisterDto.cs
 
 using System.ComponentModel.DataAnnotations;
 
