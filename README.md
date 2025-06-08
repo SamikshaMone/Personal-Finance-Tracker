@@ -62,7 +62,7 @@ The goal of this application is to help users:
 
 ---
 
-### ⚙️ Backend Setup (ASP.NET Core API)
+## ⚙️ Backend Setup (ASP.NET Core API)
 ```bash
 cd backend/FinanceTracker.API
 dotnet restore
@@ -74,7 +74,7 @@ API runs at: https://localhost:5001
 ---
 
 
-### 💻 Frontend Setup (React + TypeScript)
+## 💻 Frontend Setup (React + TypeScript)
 ```bash
 cd frontend
 npm install
