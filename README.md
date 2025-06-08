@@ -51,7 +51,7 @@ The goal of this application is to help users:
 ---
 
 ## 📁 Project Structure
-
+```bash
 EmployeeTaskManagement/
 ├── Backend/
 │   └── TaskManagement.Api/
@@ -67,7 +67,7 @@ EmployeeTaskManagement/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
+```
 ### 🧪 Local Setup
 
 ### ✅ Prerequisites
