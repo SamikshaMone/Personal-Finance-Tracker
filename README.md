@@ -60,7 +60,6 @@ The goal of this application is to help users:
 - Node.js (v18+ recommended)
 - SQL Server or LocalDB
 
----
 
 ### ⚙️ Backend Setup (ASP.NET Core API)
 ```bash
@@ -70,8 +69,6 @@ dotnet ef database update
 dotnet run
 ```
 API runs at: https://localhost:5001
-
----
 
 
 ### 💻 Frontend Setup (React + TypeScript)
