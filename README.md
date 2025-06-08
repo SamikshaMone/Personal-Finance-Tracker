@@ -79,7 +79,7 @@ PersonalFinanceTracker/
 │           ├── services/         # Axios-based API calls
 │           ├── utils/            # Helper functions
 │           ├── App.tsx           # Root component
-│           └── main.tsx          # React app entry point
+│           └── index.tsx          # React app entry point
 ├── .gitignore                    # Git ignore rules
 ├── LICENSE                       # MIT License file
 └── README.md                     # Project documentation
