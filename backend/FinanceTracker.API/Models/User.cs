@@ -1,26 +1,12 @@
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
 
 namespace FinanceTracker.API.Models
 {
-    public class Budget
+    public class User : IdentityUser
     {
-        [Key]
-        public int Id { get; set; }
-
-        [Required]
-        public string Category { get; set; }
-
-        [Required]
-        public decimal AllocatedAmount { get; set; }
-
-        public decimal SpentAmount { get; set; }
-
-        [Required]
-        public string UserId { get; set; }
-
-        [ForeignKey("UserId")]
-        public User User { get; set; }
+        public ICollection<Transaction> Transactions { get; set; }
+        public ICollection<Budget> Budgets { get; set; }
+        public ICollection<FinancialGoal> FinancialGoals { get; set; }
     }
 }
-
