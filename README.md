@@ -52,23 +52,41 @@ The goal of this application is to help users:
 
 ## 📁 Project Structure
 ```bash
-EmployeeTaskManagement/
+PersonalFinanceTracker/
 ├── Backend/
-│   └── TaskManagement.Api/
-│       ├── Controllers/
-│       ├── Data/
-│       ├── Hubs/
-│       └── Models/
+│   └── FinanceTracker.Api/
+│       ├── Controllers/          # API endpoints (Income, Expense, Auth, etc.)
+│       ├── Data/                 # EF Core DbContext and Seed Data
+│       ├── DTOs/                 # Data Transfer Objects
+│       ├── Helpers/              # Utility classes (JWT, password hashing, etc.)
+│       ├── Middleware/           # Error handling, authentication middleware
+│       ├── Models/               # Entity models for DB
+│       ├── Profiles/             # AutoMapper configuration
+│       ├── Repositories/         # Repository interfaces and implementations
+│       ├── Services/             # Business logic and service layer
+│       ├── Validators/           # FluentValidation rules
+│       ├── Program.cs            # Application entry point
+│       └── appsettings.json      # App configuration
 ├── Frontend/
-│   └── task-management-app/
-│       ├── public/
+│   └── finance-tracker-app/
+│       ├── public/               # index.html and static files
 │       └── src/
-│           └── components/
-├── .gitignore
-├── LICENSE
-└── README.md
+│           ├── assets/           # Icons, images, etc.
+│           ├── components/       # Reusable UI components
+│           ├── hooks/            # Custom React hooks
+│           ├── pages/            # Dashboard, Budget, Reports, Auth, etc.
+│           ├── redux/            # Redux Toolkit slices and store
+│           ├── services/         # Axios-based API calls
+│           ├── utils/            # Helper functions
+│           ├── App.tsx           # Root component
+│           └── main.tsx          # React app entry point
+├── .gitignore                    # Git ignore rules
+├── LICENSE                       # MIT License file
+└── README.md                     # Project documentation
+
 ```
-### 🧪 Local Setup
+---
+## 🧪 Local Setup
 
 ### ✅ Prerequisites
 - .NET 8 SDK
