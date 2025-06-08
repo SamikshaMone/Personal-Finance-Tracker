@@ -120,13 +120,13 @@ This project demonstrates clean architecture, proper SOLID design patterns, and 
 
 ---
 ## 🤝 Contribution Guide
-Fork the repo
+- Fork the repo
 
-Create a feature branch (git checkout -b feature/YourFeature)
+- Create a feature branch (git checkout -b feature/YourFeature)
 
-Commit your changes
+- Commit your changes
 
-Open a Pull Request
+- Open a Pull Request
 
 ---
 ## ⚖️ License
@@ -134,12 +134,12 @@ This project is licensed under the MIT License.
 
 ---
 ## 🙋‍♀️ Maintained By
-Samiksha Mone
+- Samiksha Mone
 
-.NET Full Stack Developer (2.7+ years)
+- .NET Full Stack Developer (2.7+ years)
 
-📧 monesamiksha@gmail.com
+- 📧 monesamiksha@gmail.com
 
-🔗 🔗 [LinkedIn](https://www.linkedin.com/in/samiksha-mone-8a23b7182) | Portfolio | [GitHub](https://github.com/SamikshaMone)
+- [LinkedIn](https://www.linkedin.com/in/samiksha-mone-8a23b7182) | Portfolio | [GitHub](https://github.com/SamikshaMone)
 
 ---
