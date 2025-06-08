@@ -52,6 +52,8 @@ The goal of this application is to help users:
 
 ## 📁 Project Structure
 
+
+
 ---
 
 ## 🧪 Local Setup
@@ -70,6 +72,16 @@ cd backend/FinanceTracker.API
 dotnet restore
 dotnet ef database update
 dotnet run
+```
+API runs at: https://localhost:5001
 
+### 💻 Frontend Setup (React + TypeScript)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+App runs at: http://localhost:3000
 
 
