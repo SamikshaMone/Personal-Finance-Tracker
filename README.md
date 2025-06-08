@@ -53,7 +53,7 @@ The goal of this application is to help users:
 ## 📁 Project Structure
 
 
-## 🧪 Local Setup
+### 🧪 Local Setup
 
 ### ✅ Prerequisites
 - .NET 8 SDK
@@ -62,7 +62,7 @@ The goal of this application is to help users:
 
 ---
 
-## ⚙️ Backend Setup (ASP.NET Core API)
+### ⚙️ Backend Setup (ASP.NET Core API)
 ```bash
 cd backend/FinanceTracker.API
 dotnet restore
@@ -74,7 +74,7 @@ API runs at: https://localhost:5001
 ---
 
 
-## 💻 Frontend Setup (React + TypeScript)
+### 💻 Frontend Setup (React + TypeScript)
 ```bash
 cd frontend
 npm install
@@ -83,11 +83,12 @@ npm run dev
 App runs at: http://localhost:3000
 
 ---
-## 📸 Screenshots
+### 📸 Screenshots
 
 🧑‍💻 Developer Notes
 This project demonstrates clean architecture, proper SOLID design patterns, and frontend-backend separation for production-ready enterprise apps. Easily deployable to Azure or any cloud platform.
 
+---
 ## 🤝 Contribution Guide
 Fork the repo
 
@@ -97,9 +98,11 @@ Commit your changes
 
 Open a Pull Request
 
+---
 ## ⚖️ License
 This project is licensed under the MIT License.
 
+---
 ## 🙋‍♀️ Maintained By
 Samiksha Mone
 
@@ -108,3 +111,5 @@ Samiksha Mone
 📧 monesamiksha@gmail.com
 
 🔗 🔗 [LinkedIn](https://www.linkedin.com/in/samiksha-mone-8a23b7182) | Portfolio | [GitHub](https://github.com/SamikshaMone)
+
+---
