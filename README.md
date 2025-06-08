@@ -108,4 +108,4 @@ Samiksha Mone
 
 📧 monesamiksha@gmail.com
 
-🔗 LinkedIn | Portfolio | GitHub
+🔗 🔗 [LinkedIn](https://www.linkedin.com/in/samiksha-mone-8a23b7182) | Portfolio | [GitHub](https://github.com/SamikshaMone)
