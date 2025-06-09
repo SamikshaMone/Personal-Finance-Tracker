@@ -96,8 +96,8 @@ PersonalFinanceTracker/
 
 ### ⚙️ Backend Setup (ASP.NET Core API)
 ```bash
-# Clone the repository (replace with your actual repo URL)
-git clone https://github.com/SamikshaMone/PersonalFinanceTracker.git
+# Clone the repository
+git clone https://github.com/SamikshaMone/Personal-Finance-Tracker
 
 # Navigate to backend API folder
 cd PersonalFinanceTracker/Backend/FinanceTracker.Api
