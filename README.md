@@ -96,9 +96,19 @@ PersonalFinanceTracker/
 
 ### ⚙️ Backend Setup (ASP.NET Core API)
 ```bash
-cd backend/FinanceTracker.API
+# Clone the repository (replace with your actual repo URL)
+git clone https://github.com/SamikshaMone/PersonalFinanceTracker.git
+
+# Navigate to backend API folder
+cd PersonalFinanceTracker/Backend/FinanceTracker.Api
+
+# Restore NuGet packages
 dotnet restore
+
+# Apply migrations and update database
 dotnet ef database update
+
+# Run the backend API
 dotnet run
 ```
 API runs at: https://localhost:5001
@@ -106,8 +116,13 @@ API runs at: https://localhost:5001
 
 ### 💻 Frontend Setup (React + TypeScript)
 ```bash
-cd frontend
+# Open a new terminal and navigate to frontend folder
+cd PersonalFinanceTracker/Frontend/finance-tracker-app
+
+# Install dependencies
 npm install
+
+# Start the React development server
 npm run dev
 ```
 App runs at: http://localhost:3000
