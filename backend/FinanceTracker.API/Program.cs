@@ -1,45 +1,35 @@
 using FinanceTracker.API.Configurations;
 using FinanceTracker.API.Middleware;
 using FluentValidation.AspNetCore;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using FinanceTracker.API.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Load configuration
+var configuration = builder.Configuration;
+
 // Add services
 builder.Services.AddControllers()
-    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Program>())
-    .AddNewtonsoftJson();
-
+    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Program>());
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddDbContext<FinanceDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-builder.Services.Configure<MvcOptions>(options => options.SuppressAsyncSuffixInActionNames = false);
-
-// Custom service configuration
 builder.Services.ConfigureIdentity();
-builder.Services.ConfigureJwtAuthentication(builder.Configuration);
-builder.Services.ConfigureRepositories();
-builder.Services.ConfigureServices();
+builder.Services.ConfigureJwtAuthentication(configuration);
+builder.Services.ConfigureDependencies();
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddHttpContextAccessor();
 
+// Build the app
 var app = builder.Build();
 
-// Middleware
+// Use middlewares
 app.UseMiddleware<ExceptionHandlingMiddleware>();
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
-
