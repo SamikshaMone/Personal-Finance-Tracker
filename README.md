@@ -27,26 +27,6 @@ The goal of this application is to help users:
 | Deployment  | Azure App Services, GitHub Actions (CI/CD) |
 | Authentication | JWT + Role-Based Authorization       |
 
-### Backend
-- ASP.NET Core (.NET 8)
-- Entity Framework Core
-- MediatR & FluentValidation
-- AutoMapper
-- SQL Server / Azure SQL
-- JWT-based Authentication
-
-### Frontend
-- React + TypeScript
-- Vite (or Create React App)
-- Redux Toolkit (RTK)
-- Tailwind CSS
-- Axios + React Router
-
-### DevOps & Cloud
-- Azure App Services (for hosting)
-- Azure SQL Database
-- GitHub Actions (CI/CD)
-
 ---
 
 ## Features
