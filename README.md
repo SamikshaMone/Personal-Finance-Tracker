@@ -16,6 +16,17 @@ The goal of this application is to help users:
 
 ## Tech Stack
 
+
+## Tech Stack
+
+| Layer       | Technology                              |
+|-------------|------------------------------------------|
+| Frontend    | React, TypeScript, Redux Toolkit (RTK), Tailwind CSS, Axios, React Router, Vite |
+| Backend     | ASP.NET Core (.NET 8), Entity Framework Core, MediatR, FluentValidation, AutoMapper |
+| Database    | SQL Server, Azure SQL Database           |
+| Deployment  | Azure App Services, GitHub Actions (CI/CD) |
+| Authentication | JWT + Role-Based Authorization       |
+
 ### Backend
 - ASP.NET Core (.NET 8)
 - Entity Framework Core
