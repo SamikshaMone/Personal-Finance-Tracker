@@ -1,10 +1,10 @@
-# 💰 Personal Finance Tracker
+# Personal Finance Tracker
 
 A full-stack Personal Finance Tracker built with ASP.NET Core, React, and SQL. This application allows users to manage their income, expenses, budgets, and savings goals in one place—securely and intuitively.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The goal of this application is to help users:
 - Track income and categorize expenses
@@ -14,7 +14,7 @@ The goal of this application is to help users:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 - ASP.NET Core (.NET 8)
@@ -38,19 +38,19 @@ The goal of this application is to help users:
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Secure user authentication (JWT)
-- ✅ Add/edit/delete income & expense entries
-- ✅ Real-time dashboard with monthly summaries
-- ✅ Budget planning and alerts
-- ✅ Visual reports (bar, pie, line charts)
-- ✅ Upload receipts or attachments
-- ✅ Dark/light mode toggle
+- Secure user authentication (JWT)
+- Add/edit/delete income & expense entries
+- Real-time dashboard with monthly summaries
+- Budget planning and alerts
+- Visual reports (bar, pie, line charts)
+- Upload receipts or attachments
+- Dark/light mode toggle
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```bash
 PersonalFinanceTracker/
 ├── Backend/
@@ -86,15 +86,16 @@ PersonalFinanceTracker/
 
 ```
 ---
-## 🧪 Local Setup
 
-### ✅ Prerequisites
+## Local Setup
+
+### Prerequisites
 - .NET 8 SDK
 - Node.js (v18+ recommended)
 - SQL Server or LocalDB
 
 
-### ⚙️ Backend Setup (ASP.NET Core API)
+### Backend Setup (ASP.NET Core API)
 ```bash
 # Clone the repository
 git clone https://github.com/SamikshaMone/Personal-Finance-Tracker
@@ -114,7 +115,8 @@ dotnet run
 API runs at: https://localhost:5001
 
 
-### 💻 Frontend Setup (React + TypeScript)
+### Frontend Setup (React + TypeScript)
+
 ```bash
 # Open a new terminal and navigate to frontend folder
 cd PersonalFinanceTracker/Frontend/finance-tracker-app
@@ -128,18 +130,19 @@ npm run dev
 App runs at: http://localhost:3000
 
 ---
-## 📸 Screenshots
 
-🧑‍💻 Developer Notes
+## Screenshots
+
+Developer Notes
 This project demonstrates clean architecture, proper SOLID design patterns, and frontend-backend separation for production-ready enterprise apps. Easily deployable to Azure or any cloud platform.
 
-1. [Dashboard Home Page](Images/HomePage.png)
-2. [Add Transaction Page](Images/HomePage.png)
-3. [Budget Management Page](Images/HomePage.png)
-4. [Reports Page](Images/HomePage.png)
-5. [Settings/Profile Page](Images/HomePage.png)
+| Dashboard Home Page | Add Transaction Page | Budget Management Page | Reports Page | Settings/Profile Page |
+|------------|-----------|-------------|-----------|-------------|
+| ![Home](screenshots/login.png) | ![Transaction](screenshots/dashboard.png) | ![Budget](screenshots/create-task.png) | ![Reports](screenshots/dashboard.png) | ![Settings/Profile](screenshots/create-task.png) | 
+
 ---
-## 🤝 Contribution Guide
+
+## Contribution Guide
 - Fork the repo
 
 - Create a feature branch (git checkout -b feature/YourFeature)
@@ -149,17 +152,21 @@ This project demonstrates clean architecture, proper SOLID design patterns, and 
 - Open a Pull Request
 
 ---
-## ⚖️ License
+
+## License
+
 This project is licensed under the MIT License.
 
 ---
-## 🙋‍♀️ Maintained By
+
+## Maintained By
+
 Samiksha Mone
 
 .NET Full Stack Developer (2.7+ years)
 
-📧 monesamiksha@gmail.com
+monesamiksha@gmail.com
 
-🔗 [LinkedIn](https://www.linkedin.com/in/samiksha-mone-8a23b7182) | Portfolio | [GitHub](https://github.com/SamikshaMone)
+[LinkedIn](https://www.linkedin.com/in/samiksha-mone-8a23b7182) | Portfolio | [GitHub](https://github.com/SamikshaMone)
 
 ---
