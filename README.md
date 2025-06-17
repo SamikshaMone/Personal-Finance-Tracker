@@ -129,7 +129,7 @@ This project demonstrates clean architecture, proper SOLID design patterns, and 
 
 | Dashboard Home Page | Add Transaction Page | Budget Management Page | Reports Page | Settings/Profile Page |
 |------------|-----------|-------------|-----------|-------------|
-| ![Home](Images/HomePage.png) | ![Transaction](screenshots/dashboard.png) | ![Budget](screenshots/create-task.png) | ![Reports](screenshots/dashboard.png) | ![Settings/Profile](screenshots/create-task.png) | 
+| ![Home](screenshots/HomePage.png) | ![Transaction](screenshots/dashboard.png) | ![Budget](screenshots/create-task.png) | ![Reports](screenshots/dashboard.png) | ![Settings/Profile](screenshots/create-task.png) | 
 
 ---
 
